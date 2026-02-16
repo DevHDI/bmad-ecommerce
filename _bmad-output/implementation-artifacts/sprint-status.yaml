@@ -1,0 +1,28 @@
+sprint: "Sprint 3"
+status: in-progress
+start_date: "2026-02-03"
+end_date: "2026-02-16"
+development_status:
+  epic-1: done
+  epic-2: in-progress
+  epic-3: in-progress
+  epic-4: in-progress
+  epic-5: not-started
+  1-1-project-setup: done
+  1-2-ci-cd-pipeline: done
+  1-3-dev-environment: done
+  2-1-product-catalog: done
+  2-2-category-system: done
+  2-3-search-and-filters: done
+  2-4-inventory-tracking: in-progress
+  3-1-cart-management: done
+  3-2-checkout-flow: in-progress
+  3-3-payment-integration: in-progress
+  3-4-order-confirmation: backlog
+  4-1-user-registration: done
+  4-2-profile-management: review
+  4-3-order-history: backlog
+  4-4-wishlist: backlog
+  5-1-product-admin: backlog
+  5-2-order-management: backlog
+  5-3-analytics-dashboard: backlog
