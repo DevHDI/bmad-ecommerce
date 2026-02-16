@@ -1,28 +1,64 @@
-sprint: "Sprint 3"
-status: in-progress
-start_date: "2026-02-03"
-end_date: "2026-02-16"
+# generated: 2026-02-14
+# project: shopflow-ecommerce
+# project_key: SHOP
+# tracking_system: file-system
+# story_location: _bmad-output/implementation-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created in stories folder
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review
+#   - done: Story completed
+
+generated: 2026-02-14
+project: shopflow-ecommerce
+project_key: SHOP
+tracking_system: file-system
+story_location: _bmad-output/implementation-artifacts
+
 development_status:
+  # Epic 1 : Project Foundation
   epic-1: done
-  epic-2: in-progress
-  epic-3: in-progress
-  epic-4: in-progress
-  epic-5: not-started
   1-1-project-setup: done
   1-2-ci-cd-pipeline: done
   1-3-dev-environment: done
+  epic-1-retrospective: done
+
+  # Epic 2 : Product Management
+  epic-2: in-progress
   2-1-product-catalog: done
   2-2-category-system: done
   2-3-search-and-filters: done
   2-4-inventory-tracking: in-progress
+  epic-2-retrospective: optional
+
+  # Epic 3 : Shopping Cart & Checkout
+  epic-3: in-progress
   3-1-cart-management: done
   3-2-checkout-flow: in-progress
   3-3-payment-integration: in-progress
   3-4-order-confirmation: backlog
+  epic-3-retrospective: optional
+
+  # Epic 4 : User Accounts & Profiles
+  epic-4: in-progress
   4-1-user-registration: done
   4-2-profile-management: review
   4-3-order-history: backlog
   4-4-wishlist: backlog
+  epic-4-retrospective: optional
+
+  # Epic 5 : Admin Dashboard
+  epic-5: backlog
   5-1-product-admin: backlog
   5-2-order-management: backlog
   5-3-analytics-dashboard: backlog
+  epic-5-retrospective: optional
